@@ -4,7 +4,8 @@ import time
 import sys
 import base64
 
-
+# The function contains all code so when try import this file you will
+# not see the CTF function. This is why the password stores as base64.
 def AH_CTF():
     PASSWORD_FILE = base64.b64decode("cGFzc3dvcmQudHh0").decode() # "password.txt"  # File containing the password
     PASSWORD = base64.b64decode("aWd1YW5h").decode()  # "iguana"
