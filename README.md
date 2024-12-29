@@ -21,3 +21,5 @@ Cool server, puzzles to brag,<br>
 Find the treasure, grab the flag,<br>
 In the kingdom, we stand tall,<br>
 CTF glory, we claim it all.<br>
+
+(Thanks to ChatGPT for this wonderful song)

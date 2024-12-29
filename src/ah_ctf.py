@@ -9,9 +9,7 @@ import base64
 def AH_CTF():
     PASSWORD_FILE = base64.b64decode("cGFzc3dvcmQudHh0").decode() # "password.txt"  # File containing the password
     PASSWORD = base64.b64decode("aWd1YW5h").decode()  # "iguana"
-    KEY = base64.b64decode(
-        "TElaQVJEe0wxekByZE1Ac3Qzcn0="
-    ).decode()  # LIZARD{L1z@rdM@st3r}
+    KEY = base64.b64decode("TElaQVJEe0wxekByZE1Ac3Qzcn0=").decode()  # LIZARD{L1z@rdM@st3r}
 
     class CtfFiles:
         def __init__(self, password):

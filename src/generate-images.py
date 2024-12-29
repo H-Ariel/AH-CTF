@@ -21,9 +21,7 @@ def text_to_qr(text, filename):
 
 
 def save_as_base64(image_path):
-    open(image_path + ".txt", "w").write(
-        base64.b64encode(open(image_path, "rb").read()).decode("utf-8")
-    )
+    open(image_path + ".txt", "w").write(base64.b64encode(open(image_path, "rb").read()).decode("utf-8"))
 
 
 def generate_smile(filename):
